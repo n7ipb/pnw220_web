@@ -1,0 +1,86 @@
+{
+"callsign"   : "N7RIG",
+"name"       : "The WETNET repeater network",
+"input_freq" : 223180000,
+"output_freq": 224780000,
+"ctcss_in"   : 103.5,
+"ctcss_out"  : 103.5,
+"echolink_id": 123456,
+"uri"        : {
+    "homepage"             : "http://wetnet.net/",
+    "signalEventStream"    : "http://lyman-78.wetnet.net:1535/json",
+    "signalEventStream2"   : "http://gold-66.wetnet.net:1535/json",
+    "signalEventStream3"   : "http://cp-440-500.wetnet.net:1535/json",
+    "signalEventStream4"   : "http://k7duh.wetnet.net:1535/json",
+    "audiostream"          : "http://streams.wetnet.net/224.78"
+
+},
+"rxlist"         : [
+    "RxRepeater",
+    "RxRepeater66",
+    "RxLink",
+    "RxRepeaterCapPk",
+    "RxRepeaterBawfaw",
+    "RxAllstar",
+    "RxNetAtlas",
+    "RxNetElectra",
+    "RxNetK7DUH"
+],
+"rx": {
+    "RxRepeater" : {
+    "name"       : "Lyman Hill 224.78",
+    "description": "",
+    "make"       : "Motorola CDM1550",
+    "antenna"    : "Sinclair SC229",
+    "type"       : "radio"
+    },
+    "RxRepeater66"    : {
+    "name"         : "Gold Mt 224.66",
+    "description"  : "Tait TB7100",
+    "antenna"      : "Unknown",
+    "type"         : "radio"
+    },
+    "RxLink"   : {
+    "name"       : "W7WRG Link 440.50",
+    "description": "RF Link",
+    "antenna"    : "7-element Yagi",
+    "type"       : "radio"
+    },
+    "RxRepeaterCapPk"   : {
+    "name"       : "W7WRG Hub 440.50",
+    "description": "Tait 8110",
+    "antenna"    : "Unknown",
+    "type"       : "radio"
+    },
+    "RxRepeaterBawfaw"   : {
+    "name"       : "BawFaw 224.08",
+    "description": "Unknown",
+    "antenna"    : "Unknown",
+    "type"       : "radio"
+    },
+    "RxAllstar"   : {
+    "name"       : "KH6BFD Hawaii AllstarLink",
+    "description": "Unknown",
+    "antenna"    : "Unknown",
+    "type"       : "radio"
+    },
+    "RxNetAtlas" : {
+    "name"       : "Atlas UHF",
+    "description": "Motorola CDM1550",
+    "antenna"    : "Varies",
+    "type"       : "radio"
+    },
+    "RxNetElectra" : {
+    "name"       : "Electra 220Mhz",
+    "description": "Motorola CDM1550",
+    "antenna"    : "Varies",
+    "type"       : "radio"
+    },
+    "RxNetK7DUH" : {
+    "name"       : "K7DUH UHF",
+    "description": "Tait 8110",
+    "antenna"    : "Unknown",
+    "type"       : "radio"
+    }
+}
+}

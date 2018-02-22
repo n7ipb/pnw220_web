@@ -1,0 +1,44 @@
+<head>
+<META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE">
+<META HTTP-EQUIV="must-revalidate">
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<script language="JavaScript" type="text/JavaScript" src="jquery.js"></script>
+<script language="JavaScript" type="text/JavaScript"></script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB1UhwxFZmQoXYDldgRKvxv3xfl5ArkGkQ"></script>
+<script type="text/javascript" src="infobox.js"></script>
+<script type="text/javascript" src="system_config.js"></script> 
+<script type="text/javascript" src="circleMap.js"></script> 
+
+<script type="text/javascript"> 
+        $(document).ready(circleMap);
+</script>
+
+<style>
+    #map {
+    margin: auto;
+    height:70%;
+    background:transparent;
+    }
+</style>
+</head>
+<p>
+<body style="background-color:lightgray;">
+<h1 align="center"> Pacific Northwest 220 Repeater Network </h1>
+<h5 align="center"> A dynamic map of the 224.78, 224.66 and 440.50 repeaters and their relative received signal strengths<br>
+Signal strengths for some W7WRG systems will be added over time if they upgrade to SvxLink<br></b>
+<b style="color:red;">A replacement BawFaw machine is in test and at times may show activity even though it's not installed yet</b>
+<br> 
+<div align="center"> Audio streams available <a style="color:red;"  href="http://streams.wetnet.net">here</a></div>
+Click on markers for site details 
+
+<div style="margin-left: 5%" id="map"></div> 
+<div align="center"> Repeaters powered by:<a href="http://svxlink.org"> Svxlink</a></div>
+<div align="Left"> <p style="margin-left: 5%"</p> 
+<b style="color:green;">Green</b> circles represent the signal received at the various sites. <br>
+<b style="color:yellow;">Yellow</b> circles represent the signal at receivers that are part of a voting group and are receiving but not currently selected.<br>
+<b style="color:red;">Red</b> circles represent SvxLink controlled sites that are transmitting. <br>
+</div>
+</body> 
